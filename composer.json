@@ -1,50 +1,50 @@
 {
-    "name": "exface/JEasyUIFacade",
-    "description": "UI facade for the ExFace plattform based on jQuery EasyUI",
-    "type": "library",
-    "license": "GPL-3.0+",
-    "authors": [
-        {
-            "name": "Andrej Kabachnik",
-            "email": "kabachnik@gmail.com",
-            "role": "Creator"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/exface/JEasyUIFacade/issues"
-    },
-    "require": {
-        "exface/core": "~0.1",
-        "bower-asset/jeasyui": "1.4.3",
-        "bower-asset/masonry": "^4",
-        "bower-asset/blueimp-file-upload": "^9.12",
-        "bower-asset/paste.js": "^0.0.15",
-        "bower-asset/google-diff-match-patch-js": "^1.0.0",
-        "bower-asset/font-awesome": "^4.7",
-        "npm-asset/slick-carousel": "^1.8",
-        "npm-asset/jsoneditor": "^5.26",
-        "npm-asset/flot-charts": "~0.8",
-        "npm-asset/jquery-prettytextdiff": "^1.0.3",
-        "npm-asset/Datejs": "1.0.0.0-beta2",
-        "npm-asset/blueimp-load-image": "^2.6",
-        "npm-asset/github-markdown-css": "^2.10.0"
-    },
-    "extra": {
-        "app": {
-            "app_uid": "0x11e6c930ff1f486693cce4b318306b9a",
-            "app_alias": "exface.JEasyUIFacade",
-            "model_md5": "ead3af8f2b2a112e3c02c5b5ba17a4b1",
-            "model_timestamp": "2019-04-14 06:12:48"
-        }
-    },
-    "autoload": {
-        "psr-4": {
-            "exface\\JEasyUIFacade\\": ""
-        },
-        "exclude-from-classmap": [
-            "/Config/",
-            "/Translations/",
-            "/Model/"
-        ]
-    }
+	"name" : "exface/JEasyUIFacade",
+	"description" : "UI facade for the ExFace plattform based on jQuery EasyUI",
+	"type" : "library",
+	"license" : "GPL-3.0+",
+	"authors" : [{
+			"name" : "Andrej Kabachnik",
+			"email" : "kabachnik@gmail.com",
+			"role" : "Creator"
+		}
+	],
+	"support" : {
+		"issues" : "https://github.com/exface/JEasyUIFacade/issues"
+	},
+	"require" : {
+		"exface/core" : "~0.1",
+		"bower-asset/jeasyui" : "1.4.3",
+		"bower-asset/masonry" : "^4",
+		"bower-asset/blueimp-file-upload" : "^9.12",
+		"bower-asset/paste.js" : "^0.0.15",
+		"bower-asset/google-diff-match-patch-js" : "^1.0.0",
+		"bower-asset/font-awesome" : "^4.7",
+		"npm-asset/slick-carousel" : "^1.8",
+		"npm-asset/jsoneditor" : "^5.26",
+		"npm-asset/flot-charts" : "~0.8",
+		"npm-asset/jquery-prettytextdiff" : "^1.0.3",
+		"npm-asset/Datejs" : "1.0.0.0-beta2",
+		"npm-asset/blueimp-load-image" : "^2.6",
+		"npm-asset/github-markdown-css" : "^2.10.0",
+		"npm-asset/handsontable": "^7.0.2"
+	},
+	"extra" : {
+		"app" : {
+			"app_uid" : "0x11e6c930ff1f486693cce4b318306b9a",
+			"app_alias" : "exface.JEasyUIFacade",
+			"model_md5" : "ead3af8f2b2a112e3c02c5b5ba17a4b1",
+			"model_timestamp" : "2019-04-14 06:12:48"
+		}
+	},
+	"autoload" : {
+		"psr-4" : {
+			"exface\\JEasyUIFacade\\" : ""
+		},
+		"exclude-from-classmap" : [
+			"/Config/",
+			"/Translations/",
+			"/Model/"
+		]
+	}
 }
