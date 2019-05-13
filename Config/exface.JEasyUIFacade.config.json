@@ -66,6 +66,9 @@
     "LIBS.FONT_AWESOME": "bower-asset/font-awesome/css/font-awesome.min.css",
     
     "LIBS.DIFF_MATCH_PATCH": "bower-asset/google-diff-match-patch-js/diff_match_patch.js",
+    
+    "LIBS.JEXCEL.JS": "paulhodel/jexcel/dist/js/jquery.jexcel.js",
+    "LIBS.JEXCEL.CSS": "paulhodel/jexcel/dist/css/jquery.jexcel.css",
 	
 	"WIDGET.SPACING": 8,
     "WIDGET.BORDERWIDTH": 1,
