@@ -280,5 +280,10 @@ JS;
     {
         return parent::buildCssElementClass() . ' exf-input';
     }
+    
+    public function buildJsValidationError()
+    {
+        return "$('#{$this->getId()}').{$this->getElementType()}('validate');";
+    }
 }
 ?>

@@ -26,5 +26,21 @@ class EuiContainer extends EuiAbstractElement
     {
         return $this->buildJsForChildren();
     }
+    
+    /**
+     *
+     * {@inheritDoc}
+     * @see \exface\Core\Facades\AbstractAjaxFacade\Elements\JqueryContainerTrait::buildJsValidationError()
+     */
+    public function buildJsValidationError()
+    {
+        foreach ($this->getWidgetsToValidate() as $child) {
+            $el = $this->getFacade()->getElement($child);
+            $validator = $el->buildJsValidator();
+            $output .= '
+				if(!' . $validator . ') { ' . $el->buildJsValidationError() . '; }';
+        }
+        return $output;
+    }
 }
 ?>
